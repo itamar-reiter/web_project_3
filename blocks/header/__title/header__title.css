@@ -1,0 +1,30 @@
+.header__title{
+  max-width: 793px;
+  margin: 90px auto 0 auto;
+  padding: 0;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+}
+@media (max-width: 1280px){
+  .header__title{
+    width: calc(100% - (2 * 24px));
+  }
+}
+@media (max-width: 768px){
+  .header__title{
+    width: 80%;
+    margin-top: 70px;
+    font-size: 60px;
+    line-height: 65px;
+  }
+}
+@media (max-width: 400px){
+  .header__title{
+    max-width: 288px;
+    margin-top: 50.15px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

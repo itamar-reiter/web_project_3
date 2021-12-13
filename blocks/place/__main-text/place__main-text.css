@@ -1,0 +1,14 @@
+.place__main-text{
+  grid-area: text;
+  margin: 0;
+  padding: 0;
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+@media (max-width: 700px){
+  .place__main-text{
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
