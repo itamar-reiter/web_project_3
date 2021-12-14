@@ -10,6 +10,7 @@
   padding: 0;
   background-image: url("../../images/cover-image.png");
   background-size: cover;
+  background-position: center;
 }
 .cover:hover .cover__overlay{
   opacity: 0.8;

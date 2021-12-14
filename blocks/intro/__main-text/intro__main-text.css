@@ -1,12 +1,12 @@
 .intro__main-text{
-  width: calc(100% - 65px);
+  width: 720px;
   margin: 32px auto 0 0;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
   /*min-height: 156px;*/
 }
-@media (max-width: 650px){
+@media (max-width: 720px){
   .intro__main-text{
     width: 100%;
   }

@@ -1,26 +1,27 @@
 .place__image{
   grid-area: image;
-  width: 460px;
-  height: 460px;
+  width: 100%;
+  /*width: 460px;*/
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 @media (max-width: 1032px){
   .place__image{
-    width: 340px;
-    height: 340px;
+    /*width: 340px;*/
+    /*height: 340px;*/
   }
 }
 @media (max-width: 700px){
   .place__image{
-    width: 500px;
+    /*width: 500px;*/
     padding: 0;
     margin: 0 auto;
-    height: 320px;
+    /*height: 320px;*/
   }
 }
 @media (max-width: 500px){
   .place__image{
-    width: 100%;
+    /*width: 100%;*/
   }
 }

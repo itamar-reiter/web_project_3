@@ -1,4 +1,5 @@
 .place__title{
+  align-self: end;
   grid-area: title;
   padding: 0;
   margin: 0;
