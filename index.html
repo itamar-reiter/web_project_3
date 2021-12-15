@@ -9,12 +9,14 @@
   <body class="page">
     <header class="header">
       <img class="header__logo" src="images/header__logo.svg" alt="practicum-art-gallery logo" />
-      <h1 class="header__title">From Homeland to Homeland</h1>
-      <p class="header__subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</p>
-      <img class="header__image" src="images/kalegin-michail-179870-unsplash.png" alt="a small town next to the beach" />
     </header>
-    <div class="content">
-      <div class="intro">
+    <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">From Homeland to Homeland</h1>
+        <p class="lead__subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</p>
+        <img class="lead__image" src="images/kalegin-michail-179870-unsplash.png" alt="a small town next to the beach" />
+      </section>
+      <section class="intro">
         <h2 class="intro__title">Know the places your online pals come from a little better</h2>
         <blockquote class="intro__quote">Every human being is an artist, a freedom being, called to participate in transforming and reshaping the conditions, thinking, and structures that shape and inform our lives.</blockquote>
         <p class="intro__quote-author">— Joseph Beuys</p>
@@ -23,39 +25,41 @@
           making the future tech professionals of this town feel at home. Each of us has a unique story about the place we come from. Feel free to add your own story and a piece of visual art dedicated to your hometown to our collection. No
           matter where you're from, we're glad that you're our neighbor.
         </p>
-      </div>
-      <ul class="photo-grid">
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-1.png" alt="Town in a lake" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-2.png" alt="Town next to the sea" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-3.png" alt="A church" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-4.png" alt="A city on a river" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-5.png" alt="A field of oat" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-6.png" alt="Green vehicle parking only" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-7.png" alt="A man next to an old-school house" />
-        </li>
-        <li>
-          <img class="photo-grid__item" src="images/grid/photo-8.png" alt="Houses on a hill" />
-        </li>
-      </ul>
-      <div class="places">
-        <div class="place">
+      </section>
+      <section>
+        <ul class="photo-grid">
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-1.png" alt="Town in a lake" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-2.png" alt="Town next to the sea" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-3.png" alt="A church" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-4.png" alt="A city on a river" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-5.png" alt="A field of oat" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-6.png" alt="Green vehicle parking only" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-7.png" alt="A man next to an old-school house" />
+          </li>
+          <li>
+            <img class="photo-grid__item" src="images/grid/photo-8.png" alt="Houses on a hill" />
+          </li>
+        </ul>
+      </section>
+      <section class="places">
+        <article class="place">
           <h2 class="place__title">Kyiv,Ukraine</h2>
-          <div class="artist">
-            <h3 class="artist__title">Artist</h3>
-            <p class="artist__name">Natalia Dolgushina, content producer</p>
+          <div class="place__artist">
+            <h3 class="place__artist-title">Artist</h3>
+            <p class="place__artist-name">Natalia Dolgushina, content producer</p>
           </div>
           <img class="place__image" src="images/places/kyiv-image.png" alt="kyiv" />
           <div class="place__main-text">
@@ -68,17 +72,15 @@
               and those wearing heels. The left bank is considered far less interesting and prestigious though, even by people who live on the far outskirts of the right one.
             </p>
           </div>
-          <a class="link link_location_place" href="#">Buy this artwork as NFT</a>
-        </div>
-        <div class="place">
+          <a class="link link_size_big" href="#">Buy this artwork as NFT</a>
+        </article>
+        <article class="place">
           <h2 class="place__title">Cricieth, Wales</h2>
-          <div class="artist">
-            <h3 class="artist__title">Artist</h3>
-            <p class="artist__name">
+          <div class="place__artist">
+            <h3 class="place__artist-title">Artist</h3>
+            <p class="place__artist-name">
               Steffan Warren, lead editor
-            </p>
-            <p class="artist__name">
-              Kseniya Glagoleva, project manager
+              Kseniya&nbsp;Glagoleva,&nbsp;project&nbsp;manager
             </p>
           </div>
           <img class="place__image" src="images/places/cricieth-image.png" alt="cricieth" />
@@ -92,13 +94,13 @@
               Wales in Bloom award for five years in a row for its spectacular floral displays around town. It was also home to David Lloyd George, the only Welshman ever to hold the office of Prime Minister of the UK.
             </p>
           </div>
-          <a class="link link_location_place" href="#">Buy this artwork as NFT</a>
-        </div>
-        <div class="place">
+          <a class="link link_size_big" href="#">Buy this artwork as NFT</a>
+        </article>
+        <article class="place">
           <h2 class="place__title">Berea, USA</h2>
-          <div class="artist">
-            <h3 class="artist__title">Artist</h3>
-            <p class="artist__name">Travis Turner, author and editor</p>
+          <div class="place__artist">
+            <h3 class="place__artist-title">Artist</h3>
+            <p class="place__artist-name">Travis Turner, author and editor</p>
           </div>
           <img class="place__image" src="images/places/berea-image.png" alt="Berea" />
           <div class="place__main-text">
@@ -111,13 +113,13 @@
               charges no tuition — every student receives  a full-tuition scholarship.
             </p>
           </div>
-          <a class="link link_location_place" href="#">Buy this artwork as NFT</a>
-        </div>
-        <div class="place">
+          <a class="link link_size_big" href="#">Buy this artwork as NFT</a>
+        </article>
+        <article class="place">
           <h2 class="place__title">Muramvya, Burundi</h2>
-          <div class="artist">
-            <h3 class="artist__title">Artist</h3>
-            <p class="artist__name">Grevisse Kenguruka, tech editor</p>
+          <div class="place__artist">
+            <h3 class="place__artist-title">Artist</h3>
+            <p class="place__artist-name">Grevisse Kenguruka, tech editor</p>
           </div>
           <img class="place__image" src="images/places/muramvya-image.png" alt="muramvya" />
           <div class="place__main-text">
@@ -134,13 +136,13 @@
               1550 and 2660 meters of altitude. It is filled with beautiful vegetation, and a source for the various rivers and streams which provide water around the country.
             </p>
           </div>
-          <a class="link link_location_place" href="#">Buy this artwork as NFT</a>
-        </div>
-        <div class="place">
+          <a class="link link_size_big" href="#">Buy this artwork as NFT</a>
+        </article>
+        <article class="place">
           <h2 class="place__title">Givat Sh'muel</h2>
-          <div class="artist">
-            <h3 class="artist__title">Artist</h3>
-            <p class="artist__name">Itamar Reiter, web-dev student</p>
+          <div class="place__artist">
+            <h3 class="place__artist-title">Artist</h3>
+            <p class="place__artist-name">Itamar Reiter, web-dev student</p>
           </div>
           <img class="place__image" src="images/places/givat-shmuel-image.jpg" alt="Givat SH'muel" />
           <div class="place__main-text">
@@ -150,24 +152,20 @@
             </p>
             <p class="place__main-text-item">According to some indicators that measure education, welfare and cleanliness of the city, Givat Shmuel is selected time after time at the first place on those domains.</p>
           </div>
-          <a class="link link_location_place" href="#">Buy this artwork as NFT</a>
-        </div>
-      </div>
-      <div class="cover">
+          <a class="link link_size_big" href="#">Buy this artwork as NFT</a>
+        </article>
+      </section>
+      <section class="cover">
         <h2 class="cover__title">Visit us</h2>
         <p class="cover__subtitle">
-          Year-round
+         	Year-round Practicum&nbsp;Art&nbsp;Gallery 404&nbsp;Tim&nbsp;Berners&#8209;Lee&nbsp;Ave
         </p>
-        <p class="cover__subtitle">
-          Practicum Art Gallery
-        </p>
-        <p class="cover__subtitle">
-          404 Tim Berners-Lee Ave
-        </p>
-        <a class="link link_location_cover" href="#">Buy tickets</a>
+        <a class="link link_size_small" href="#">Buy tickets</a>
         <div class="cover__overlay"></div>
-      </div>
-    </div>
-    <p class="footer">© 2021. Itamar Reiter</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2021. Itamar Reiter</p>
+    </footer>
   </body>
 </html>

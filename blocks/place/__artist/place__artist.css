@@ -1,4 +1,4 @@
-.artist{
+.place__artist{
   grid-area: artist;
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@
   align-items: flex-start;
 }
 @media (max-width: 1032px){
-  .artist{
+  .place__artist{
     margin-top: 1px;
   }
 }
 
 @media (max-width: 550px){
-  .artist{
+  .place__artist{
     width: 90%;
     margin: 0 auto;
   }

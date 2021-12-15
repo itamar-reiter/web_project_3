@@ -9,3 +9,6 @@
   transition-delay: 0.09s;
   transition-duration: 0.25s;
 }
+.cover:hover .cover__overlay{
+  opacity: 0.8;
+}

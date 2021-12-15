@@ -1,4 +1,4 @@
-.header__title{
+.lead__title{
   max-width: 793px;
   margin: 90px auto 0 auto;
   padding: 0;
@@ -8,18 +8,18 @@
   text-align: center;
 }
 @media (max-width: 793px){
-  .header__title{
+  .lead__title{
     width: 100%;
   }
 }
 @media (max-width: 768px){
-  .header__title{
+  .lead__title{
     width: 93.5%;
     margin-top: 70px;
   }
 }
 @media (max-width: 550px){
-  .header__title{
+  .lead__title{
     max-width: 315px;
     margin-top: 50.15px;
     font-size: 44px;
@@ -27,7 +27,7 @@
   }
 }
 @media (max-width: 450px){
-  .header__title{
+  .lead__title{
     max-width: 288px;
     margin-top: 50.15px;
     font-size: 40px;

@@ -1,0 +1,15 @@
+.link_size_big{
+  grid-area: link;
+  box-sizing: border-box;
+  width: 248px;
+  height: 48px;
+  margin: 0;
+}
+@media (max-width: 700px){
+  .link_size_big{
+    width: 288px;
+    margin: 0 auto;
+    grid-row: auto;
+    grid-column: auto;
+  }
+}

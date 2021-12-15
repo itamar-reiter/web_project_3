@@ -1,0 +1,18 @@
+.link{
+  padding: 13px 20px;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-timing-function: ease-in;
+  transition-delay: 0.13s;
+  transition-duration: 0.3s;
+  background-color: #0278FE;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.link:hover{
+  background-color: #0063D2;
+}
