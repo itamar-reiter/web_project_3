@@ -6,4 +6,4 @@ Tech that were used:
 We used grid and flexbox displays for items-location, and media queries for the project's-resnposivity.
 We used BEM structure for organizing the files.
 
-[link](https://github.com/itamar-reiter/web_project_3) for the project on gitHub. 
+[link](https://itamar-reiter.github.io/web_project_3/) for the project on gitHub. 
