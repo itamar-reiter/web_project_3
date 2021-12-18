@@ -4,6 +4,7 @@
   height: 615px;
   margin: 64px auto 0;
   filter: grayscale(1);
+  object-fit: cover;
   /*width: calc(100vw-2*148px);*/
 }
 @media (max-width: 984px){
